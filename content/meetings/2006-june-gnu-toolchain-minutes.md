@@ -5,6 +5,14 @@ Category: meetings
 Tags: meeting-minutes, meetings-2006, gnu, gcc, make, gdb, autoconf
 
 
+**Topic**: GNU Tool chain
+
+**Speaker**: S. Ashok, II year CSE student, Thiagarajar College of Engineering, Madurai
+
+**Date and Time**: 24-06-2006 10.30-11.30
+
+**Minutes of the meeting**:
+
 This meeting started sharply at 10.30 on june 24th.
 
 The meeting was to discuss about the GNU Tool chain.

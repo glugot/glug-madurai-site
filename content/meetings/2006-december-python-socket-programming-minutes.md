@@ -4,8 +4,13 @@ Date: 2006-12-23 13:17
 Category: meetings
 Tags: meeting-minutes, meetings-2005, python, sockets, network programming
 
+**Speaker**: S. Ashok, II year CSE student, Thiagarajar College of Engineering, Madurai.
 
-The meeting was handled by S.Ashok on python Network Programming. The areas covered were:
+**Date and Time**: 22-12-2006 10.30 - 11.30
+
+**Topic**: Python Network Programming
+
+**Discussion points**:
 
 1) The basics of client-server programming, TCP, UDP, sockets.
 

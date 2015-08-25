@@ -5,6 +5,14 @@ Category: meetings
 Tags: meeting-minutes, meetings-2006, python
 
 
+**Topic**: Basics of Python
+
+**Speakers**: Venkatapathy, Sai Krishna, 2nd year CSE students, Thiagarajar College of Engineering, Madurai.
+
+**Date and time**: 08-04-2006 10.30-11.30
+
+**Minutes of the meeting**:
+
 The meeting started sharply at 10:30am in TCE with M.Sai Krishna and M.Venkatapathy discussing about the basics of python. There was a discussion about the latest news in the FOSS community after that session. The topics discussed in today's meeting are
 
 * A brief comparison and reasoning about the flexibility & robustness of Python over other programming languages.

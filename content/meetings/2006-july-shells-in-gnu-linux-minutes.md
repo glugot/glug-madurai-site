@@ -4,6 +4,13 @@ Date: 2006-08-31 16:11
 Category: meetings
 Tags: meeting-minutes, meetings-2006, shells, GNU/Linux
 
+**Topic**: Shells in GNU/Linux
+
+**Speakers**: Krithika, Geetha Priya, II year CSE students, Thiagarajar College of Engineering, Madurai
+
+**Date and Time**: 08-07-2006 10.30 - 11.30
+
+**Minutes of the meeting**:
 
 The meeting started sharp at 10.30. The topic of the day was "Shells in GNU/Linux"
 

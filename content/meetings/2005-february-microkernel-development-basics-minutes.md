@@ -4,8 +4,13 @@ Date: 2005-02-19 16:03
 Category: meetings
 Tags: meeting-minutes, meetings-2005, microkernel 
 
+**Speakers**: S.Senthil Kumaran (stylesen@gmail.com), Mr. Amalan Joe Steeve
 
-Speaker: S.Senthil Kumaran (stylesen@gmail.com)
+**Date and Time**: 19/02/2005 10.30 - 11.30
+
+**Topic**: Microkernel development basics
+
+**Minutes of the meeting**:
 
 The meeting was on Microkernel Development Basics. The topics which were covered are paging, booting process, GDT, bochs emulator and how-tos. There were many guyz from KLN, TCE, NITT, also there was a member of glug-madurai who is working in southern railways. During the questions session guys asked about enabling the A-20 pin.
 

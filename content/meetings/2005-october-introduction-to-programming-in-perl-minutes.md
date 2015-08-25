@@ -4,7 +4,13 @@ Date: 2005-10-20 15:52
 Category: meetings
 Tags: meeting-minutes, meetings-2005, perl
 
-Speaker: S.Senthil Kumaran (ss_kumaran@tce.edu)
+**Speaker**: S. Senthil Kumaran (ss_kumaran@tce.edu), III year CSE, TCE.
+
+**Topic**: Introduction to programming in Perl
+
+**Date and time**: 08/10/2005 10.30 - 11.30
+
+**Minutes of the meeting**:
 
 The october meeting was handled by S.Senthil Kumaran, III year CSE,TCE. It was on Introduction to programming in PERL. The session started with basics like what is perl?, scalar variables in perl, strings, operators, control statements and continued with topics like lists and arrays, extracting
 subarrays, array manipulation functions and ended with the basic file operations like opening a file,reading from a file, wirting to a file, determining the status of the file,accessing multiple files and subroutines in perl. The talk lasted for about an hour.
