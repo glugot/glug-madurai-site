@@ -39,6 +39,7 @@ MENUITEMS = [
     ('About', '/pages/about.html'),
     ('Mailing List', '/pages/mailing-list.html'),
     ('Meetings', '/pages/meetings.html'),
+    ('Announcements', '/category/announcements.html'),
     ('Events', '/category/events.html'),
     ('FStival', 'http://www.fstival.org/'),
 ]
