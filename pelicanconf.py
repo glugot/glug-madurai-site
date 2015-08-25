@@ -35,7 +35,16 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 THEME = './themes/glug-madurai-theme'
 
-MENUITEMS = [
+def generate_menu_links_with_site_url(list_of_links_tuple, site_url):
+    MENUITEMS = []
+    for item in list_of_links_tuple:
+        if item[1].startswith("/"):
+            MENUITEMS.append((item[0], site_url+item[1]))
+        else:
+            MENUITEMS.append(item)
+    return MENUITEMS
+
+MENULINKS = [
     ('About', '/pages/about.html'),
     ('Mailing List', '/pages/mailing-list.html'),
     ('Meetings', '/pages/meetings.html'),
@@ -43,6 +52,8 @@ MENUITEMS = [
     ('Events', '/category/events.html'),
     ('FStival', 'http://www.fstival.org/'),
 ]
+
+MENUITEMS = generate_menu_links_with_site_url(MENULINKS, SITEURL)
 
 DISPLAY_PAGES_ON_MENU = False
 

@@ -18,6 +18,7 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
+MENUITEMS = generate_menu_links_with_site_url(MENULINKS, SITEURL)
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
