@@ -15,5 +15,6 @@ echo "Publishing to GitHub pages\n"
 make publish github
 
 echo "Publishing to sf.net"
+git checkout gh-pages
 rsync -avz -e "$SSH_COMMAND" --progress --delete $LOCAL_PATH $SSH_USER@$SSH_HOST:$REMOTE_PATH
 
