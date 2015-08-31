@@ -16,4 +16,5 @@ before_install:
 
 install:
 - pip install -r requirements.txt
-script: make publish github; rsync -nav -e "ssh -o ssh -o StrictHostKeyChecking=no"  --delete ./ lguruprasad,glug-madurai@web.sourceforge.net:/home/project-web/glug-madurai/htdocs/
+script: ./deploy_site_from_travis.sh
+
