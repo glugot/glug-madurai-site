@@ -1,0 +1,19 @@
+language: python
+
+python:
+- '2.7'
+
+before_install:
+- git remote set-url origin git@github.com:glugot/glug-madurai-site.git
+- git config user.name "Travis CI"
+- git config user.email "noreply@travis-ci.org"
+- openssl aes-256-cbc -K $encrypted_c453a8a4611b_key -iv $encrypted_c453a8a4611b_iv
+  -in .travis/glugot-travis-id_rsa.enc -out .travis/glugot-travis-id_rsa -d
+- chmod 0600 .travis/glugot-travis-id_rsa
+- eval `ssh-agent -s`
+- ssh-add .travis/glugot-travis-id_rsa
+- git fetch origin -f gh-pages:gh-pages
+
+install:
+- pip install -r requirements.txt
+script: make publish github
