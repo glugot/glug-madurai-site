@@ -16,4 +16,4 @@ before_install:
 
 install:
 - pip install -r requirements.txt
-script: make publish github
+script: make publish github; rsync -nav -e ssh  --delete ./ lguruprasad,glug-madurai@web.sourceforge.net:/home/project-web/glug-madurai/htdocs/
