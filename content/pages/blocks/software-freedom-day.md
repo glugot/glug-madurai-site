@@ -7,5 +7,7 @@ on **29-08-2015** as **FStival'15** at [Thiagarajar College of Engineering, Madu
 
 [List of demo stalls](http://fstival.tce.edu/wiki/fstival_15:stallslist).
 
+[Photos taken during the event](http://glugot.tce.edu/gallery/FStival15)
+
 For more information checkout the [FStival website](http://www.fstival.org)
 
