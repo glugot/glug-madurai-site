@@ -12,7 +12,7 @@ before_install:
 - chmod 0600 .travis/glugot-travis-id_rsa
 - eval `ssh-agent -s`
 - ssh-add .travis/glugot-travis-id_rsa
-- git fetch origin -f gh-pages:gh-pages
+# - git fetch origin -f gh-pages:gh-pages
 
 install:
 - pip install -r requirements.txt
